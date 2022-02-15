@@ -1,0 +1,33 @@
+#include <stdio.h>
+#include <conio.h>
+
+int main()
+{
+    char letter = 'x';
+    char name[15] = "Ramona";
+    int number1 = 34;
+    float number2 = -12.0043901;
+    double number3 = 5290.032810346;
+    double number4 = 6710.719238034013901102362;
+    const float constant_variable = 203;
+
+    number1 = 23;
+
+    printf("%c", letter);
+    printf("###");
+    printf("%s", name);
+    printf("###");
+    printf("%d", number1);
+    printf("###");
+    printf("%f", number2);
+    printf("###");
+    printf("%lf", number3);
+    printf("###");
+    printf("%.24lf", number4);
+    printf("###");
+    printf("%f", constant_variable);
+    printf("###");
+    printf("%lf", constant_variable);
+
+    getch();
+}
