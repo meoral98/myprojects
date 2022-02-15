@@ -9,6 +9,7 @@ int main()
     float number2 = -12.0043901;
     double number3 = 5290.032810346;
     double number4 = 6710.719238034013901102362;
+    float number5 = 22.442e2;
     const float constant_variable = 203;
 
     number1 = 23;
@@ -28,6 +29,8 @@ int main()
     printf("%f", constant_variable);
     printf("###");
     printf("%lf", constant_variable);
+    printf("###");
+    printf("%f", number5);
 
     getch();
 }
